@@ -268,6 +268,9 @@ public class LaserControl_ControlSolidStateLaser extends AppCompatActivity imple
         if (socket != null && socket.isConnected()) {
             switch (v.getId()) {
                 case R.id.buttonStart: {
+                    out.println("LAS:0:ENERGY=" + textEnergy.getText().toString());
+                    out.println("LAS:0:DURATION=" + textDuration.getText().toString());
+                    out.println("LAS:0:FREQUENCY=" + textFrequency.getText().toString());
                     out.println("LAS:0:START");
                     out.flush();
                     Log.d("LASLOG", "Laser start");
