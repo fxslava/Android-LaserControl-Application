@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">LaserSettings</string>
+    <string name="app_name">Innolaser Service</string>
     <string name="title_activity_activity_two">ActivityTwo</string>
     <string name="title_activity_main">MainActivity</string>
 
